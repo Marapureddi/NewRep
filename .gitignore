@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+backend/.venv/
+backend/.pycache/
+backend/study_planner.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env files
+.env
+.env.*
+!.env.example
